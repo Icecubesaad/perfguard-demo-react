@@ -1,0 +1,17 @@
+body {
+  margin: 0;
+  font-family: system-ui, sans-serif;
+  background: #f6f7fb;
+  color: #1f2933;
+}
+
+.dashboard {
+  margin: 0 auto;
+  max-width: 960px;
+  padding: 32px;
+}
+
+.stats {
+  display: flex;
+  gap: 16px;
+}
