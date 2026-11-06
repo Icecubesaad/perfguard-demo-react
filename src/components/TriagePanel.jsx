@@ -10,6 +10,7 @@ export default function TriagePanel({ tickets }) {
   return (
     <section style={{ padding: 16, display: "grid", gap: 8 }}>
       <h2>Triage</h2>
+      <button onClick={() => setFilter("open")}>Reset</button>
       <TicketList
         config={{ sortable: true, pageSize: 500 }}
         rows={tickets.map((ticket) => ({
